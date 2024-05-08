@@ -24,7 +24,7 @@ const BmiCalc = () => {
     let text = "";
     if (bmiValue < 18.5) {
       text = "Underweight";
-    } else if (bmiValue > 18.5 && bmiValue < 25) {
+    } else if (bmiValue >= 18.5 && bmiValue < 25) {
       text = "Normal weight";
     } else if (bmiValue >= 25 && bmiValue < 30) {
       text = "Overweight";
